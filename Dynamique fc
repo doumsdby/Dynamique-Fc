@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Dynamique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        FC Dynamique
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#equipe">Équipe</a>
+        <a href="#matchs">Matchs</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2 id="accueil">Bienvenue sur le site du FC Dynamique</h2>
+        <p>Découvrez les dernières actualités de votre club préféré !</p>
+        
+        <h2 id="equipe">Notre Équipe</h2>
+        <p>Présentation des joueurs et du staff.</p>
+        
+        <h2 id="matchs">Calendrier des Matchs</h2>
+        <p>Prochains matchs et résultats.</p>
+        
+        <h2 id="galerie">Galerie</h2>
+        <p>Photos et vidéos des matchs.</p>
+        
+        <h2 id="contact">Contact</h2>
+        <p>Envoyez-nous un message pour toute information.</p>
+    </div>
+    <footer>
+        &copy; 2025 FC Dynamique - Tous droits réservés.
+    </footer>
+</body>
+</html>
