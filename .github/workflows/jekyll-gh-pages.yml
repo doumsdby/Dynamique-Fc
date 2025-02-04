@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Dynamique</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #f4f4f4; }
+        header { background: #333; color: white; padding: 20px; font-size: 24px; }
+        nav { background: #444; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; }
+        .container { padding: 20px; }
+        footer { background: #333; color: white; padding: 10px; position: absolute; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+    <header>FC Dynamique</header>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Équipe</a>
+        <a href="#">Matchs</a>
+        <a href="#">Galerie</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Bienvenue sur le site du FC Dynamique</h2>
+        <p>Découvrez les dernières actualités de votre club préféré !</p>
+    </div>
+    <footer>&copy; 2025 FC Dynamique - Tous droits réservés.</footer>
+</body>
+</html>
